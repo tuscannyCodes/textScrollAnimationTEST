@@ -18,7 +18,7 @@
 .marquee {
   position: absolute;
   overflow: hidden;
-  --offset: 30vw;
+  --offset: 45vw;
   move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
   z-index: 1;
@@ -35,9 +35,10 @@
 }
 
 .marquee span {
-  font-size: 4em;
+  font-size: 3em;
   padding: 0 2vw;
   white-space: nowrap;
+  font-family: "Teko", sans-serif;
 }
 
 @keyframes marquee {
